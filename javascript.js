@@ -367,26 +367,39 @@ parseFloat('23.6'); // 23.6
 
 // MATH
 
-// abs() // 
-Math.abs(); //
+// abs() // returns absolute value of x
+Math.abs(-4.7); // returns 4.7
 
-// ceil() //
-Math.ceil(); //
+// ceil() // returns the value of x rounded up to its nearest integer:
+Math.ceil(4.4); // returns 5
 
-// floor() //
-Math.floor(); //
+// floor() // returns the value of x rounded down to its nearest integer
+Math.floor(4.7); // returns 4
 
-// round() //
-Math.round(); //
+// round() // Round x to the nearest integer:
+Math.round(2.53); // 3
+Math.round(2.43); // 2
 
-// random() //
-Math.random(); //
+// toFixed // Round to x decimal places
+var num = 5.56489;
+num.toFixed(0); // 6
+num.toFixed(1); // 5.6
+num.toFixed(2); // 5.56
+num.toFixed(3); // 5.565
 
-// min() //
-Math.min(); //
+// random() // returns a random number between 0 (inclusive), and 1 (exclusive):
+Math.random(); // 0.8758599512255674
 
-// max(); //
-Math.max(); //
+// sqrt() // returns square root of x
+Math.sqrt(64); // returns 8
+
+// min() // find the lowest value in a list of arguments
+Math.min(0, 150, 30, 20, -8, -200); // returns -200
+// Math.min([0, 150, 30, 20, -8, -200]); // NaN
+
+// max() // find the highest value in a list of arguments
+Math.max(0, 150, 30, 20, -8, -200); // returns 150
+// Math.max([0, 150, 30, 20, -8, -200]); // NaN
 
 
 
@@ -396,8 +409,7 @@ Math.max(); //
 
 
 
-
-// DATE getDate(), parse, now, getMinutes, getFullYear, getMonth
+// DATE
 
 Date.now(); // 1598831947552 # Returns the number of milliseconds since midnight Jan 1, 1970
 Date.parse('2020-08-30T23:58:01'); // 1598857081000 # Parses a date string and returns the number of milliseconds since January 1, 1970
@@ -468,7 +480,3 @@ catch(err) {
 
 
 
-// ajax 
-// fetch
-// promise
-// async await
