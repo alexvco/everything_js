@@ -32,7 +32,7 @@ function getPosts() {
     document.querySelector('#dom').append(div);
   })
   .catch((err) => {
-    // without throwing the new Error above, this catch is mostly for network errors
+    // without throwing the new Error above, this catch would log network errors only
     console.log(`${err.name}: ${err.message}`);
     // Error: Something went wrong, got_status: 404, got_status_text: Requested resource could not be found
   });
@@ -238,6 +238,20 @@ function addPost(e) {
 
 // h2
   // <h2 class=​"mynewstyle classs" id=​"myid" style=​"background-color:​ red;​ font-size:​ 16px;​">​dmbo​</h2>​
+
+// h2.classList.toggle("visible");  
+
+// add or remove multiple classes
+  // h2.classList.add("foo", "bar", "baz");
+  // h2.classList.remove("foo", "bar", "baz");
+
+// add or remove multiple classes using spread syntax
+  // const cls = ["foo", "bar"];
+  // h2.classList.add(...cls); 
+  // h2.classList.remove(...cls);
+
+// replace class "foo" with class "bar"
+  // h2.classList.replace("foo", "bar");
 
 
 
