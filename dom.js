@@ -245,3 +245,28 @@ function addPost(e) {
 
 
 
+
+
+
+
+// const listings = document.querySelectorAll('.row.listing-marker');
+// listings.length
+  // 10
+
+// listings
+//   NodeList(10) [div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker, div.row.listing-marker]
+
+// listings[0]
+//   <div class="row listing-marker">...</div>
+
+// typeof listings[0]
+//   "object"
+
+// listings[0].classList
+//   DOMTokenList(2) ["row", "listing-marker", value: "row listing-marker"]
+
+// listings.forEach((listing) => listing.classList.add('list-ing'));
+  // # it added the class ('list-ing') to all the elements
+
+
+
