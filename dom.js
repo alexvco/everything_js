@@ -83,8 +83,10 @@ function addPost(e) {
 // querySelector
 // querySelectorAll // make sure to have one with class as well as data-attribute
 
-// create element
-// // delete element
+// create element - createElement
+// // remove delete element - deleteElement
+// var myobj = document.getElementById("demo");
+// myobj.remove();
 
 // get attribute
 // set attribute // src, disabled, data-rating, input value, selectoption value
@@ -113,7 +115,7 @@ function addPost(e) {
 // hasattribute
 // getAttribute()
 // setattribute
-//next sibling
+// next sibling
 // remove
 // replaceChild
 
@@ -252,6 +254,42 @@ function addPost(e) {
 
 // replace class "foo" with class "bar"
   // h2.classList.replace("foo", "bar");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <p id="para">hi <b>Your_Name</b></p>
+// el = document.querySelector('#para');
+
+// el.outerText
+  // "hi Your_Name"
+
+// el.innerText
+  // "hi Your_Name"
+
+// el.innerHTML
+  // "hi <b>Your_Name</b>"
+
+// el.outerHTML
+  // "<p id="para">hi <b>Your_Name</b></p>"
+
+// typeof el.innerHTML    
+  // "string"
+
+// typeof el.innerText
+  // "string"
 
 
 
