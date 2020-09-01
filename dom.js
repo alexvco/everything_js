@@ -130,6 +130,21 @@ function addPost(e) {
 
 
 
+// var parent = document.createElement("div");
+// var child = document.createElement("p");
+// parent.append(child);
+
+// console.log(parent.outerHTML);
+//   // <div><p></p></div>
+
+// var span = document.createElement("span");
+// child.replaceWith(span);
+
+// console.log(parent.outerHTML);
+//   // <div><span></span></div>
+
+
+
 
 
 
