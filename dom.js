@@ -249,7 +249,7 @@ function addPost(e) {
 
 
 
-// const listings = document.querySelectorAll('.row.listing-marker');
+// const listings = document.querySelectorAll('.row.listing-marker'); // give a NodeList
 // listings.length
   // 10
 
