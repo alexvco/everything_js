@@ -382,10 +382,11 @@ Math.round(2.43); // 2
 
 // toFixed // Round to x decimal places
 var num = 5.56489;
-num.toFixed(0); // 6
-num.toFixed(1); // 5.6
-num.toFixed(2); // 5.56
-num.toFixed(3); // 5.565
+num.toFixed(0); // '6'
+num.toFixed(1); // '5.6'
+num.toFixed(2); // '5.56'
+num.toFixed(3); // '5.565'
+(5).toFixed(3); // '5.000'
 
 // random() // returns a random number between 0 (inclusive), and 1 (exclusive):
 Math.random(); // 0.8758599512255674
