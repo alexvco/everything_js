@@ -77,6 +77,7 @@ function getPosts() {
 }
 
 function addPost(e) {
+  e.preventDefault();
   // e.target // is the form object
   // const formData = new FormData(e.target);
   // console.log(formData.get('title'));
@@ -124,15 +125,7 @@ function addPost(e) {
 // Callbacks
 // --------------------------------------- //
 
+window.addEventListener('DOMContentLoaded', getPosts); // getPosts is a callback function to addEventListener function
 
-
-function retrievePosts(callback) {
-
-}
-
-function createPost(post, callback) {
-
-}
-
-// createPost({title, 'mytitle', body: 'mybody'}, retrievePosts)
+document.querySelector('#myform').addEventListener('submit', addPost); // addPost is a callback function to addEventListener function
 
