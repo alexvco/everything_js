@@ -273,4 +273,4 @@ document.querySelector('#myform').addEventListener('submit', (e) => {
   // # it added the class ('list-ing') to all the elements
 
 // listings.forEach(listing => listing.remove());
-  // removes element
+  // removes elements
