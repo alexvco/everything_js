@@ -93,7 +93,7 @@ document.querySelector('#myform').addEventListener('submit', (e) => {
 // h2.innerText = "dmbo";
 //   "dmbo"
 
-// h2.classList.add("mystyle");
+// h2.classList.add("mystyle"); // to add a class addClass
 //   undefined
 
 // h2
@@ -105,7 +105,7 @@ document.querySelector('#myform').addEventListener('submit', (e) => {
 // h2
 //   <h2 class=​"mystyle mynewstyle">​dmbo​</h2>​
 
-// h2.classList.remove("mystyle");
+// h2.classList.remove("mystyle"); // to remove a class removeClass
 //   undefined
 
 // h2
